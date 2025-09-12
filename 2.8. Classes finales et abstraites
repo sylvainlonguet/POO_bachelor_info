@@ -1,0 +1,58 @@
+## 2.8. Classes finales, classes abstraites
+
+### Classes abstraites
+
+C'est un compromis entre 
+- une classe
+qui déclare des méthodes pouvant être surchargées dans des classes filles
+
+- une interface
+qui ne décare que des prototypes de méthodes (contrat)
+
+La classe abstraite implémente certaines méthodes et en laisse d'autres non-implémentées
+==> Elles ne peuvent donc jamais être instanciées elles-mêmes, mais ses filles OUI
+
+```java
+public abstract class AnimalDeCompagnie{
+
+    public void allerChezLeVeto(){
+        ...
+        // cette méthode est implementée, fonctionnelle ...
+    }
+
+    // Par contre on sera obligé d'implémenter cela dans une classe fille
+    public abstract void seDeplacer();
+
+}
+
+```
+
+Utilisation : 
+```java
+AnimalDeCompagnie medor = new AnimalDeCompagnie(){
+
+    @Override public void seDeplacer(){
+        System.out.println("Je marche à 4 pattes");
+    }
+}
+
+AnimalDeCompagnie titi = new AnimalDeCompagnie(){
+
+    @Override public void seDeplacer(){
+        System.out.println("Je suis un poussin donc je vole");
+    }
+}
+```
+
+NB : On aurait pu aussi dééclarer des vrais classes ```Chien``` et ```Poussin```
+
+
+### Classes finales
+
+Lorsqu'on ne veut pas permettre à une classe d'être héritée
+
+public final class ChatPersan extends Chat {
+
+    // Cette classe est déjà très spécialisée
+    // On ne veut pas qu'un dev étende cette classe
+}

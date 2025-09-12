@@ -44,6 +44,7 @@
 
 ## 2.7. Mise en pratique classes et interfaces
 
+## 2.8. Classes finales, classes abstraites
 
 # 3. Concepts communs et sucres syntaxiques
 
