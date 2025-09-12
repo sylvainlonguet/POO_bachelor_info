@@ -48,7 +48,7 @@
 
 # 3. Concepts communs et sucres syntaxiques
 
-## 3.1. [Expressions lambda](3.1.%20Expressions%20lambdas.md)
+## [3.1. Expressions lambda](3.1.%20Expressions%20lambdas.md)
 
 ### Principe
 ### Implémentation en Javascript
@@ -57,14 +57,14 @@
 ### Utilisation et limites
 
 
-## 3.2. [Collections](3.2.%20Collections.md)
+## [3.2. Collections](3.2.%20Collections.md)
 ### Définition
 ### Principaux types de collections
 ### Exemple en Java
 ### Python
 ### Structures de données
 
-## 3.3. [Introspection](3.3.%20Introspection.md)
+## [3.3. Introspection](3.3.%20Introspection.md)
 
 ### Définition
 ### Exemple En Python
@@ -72,7 +72,7 @@
 ### En PHP
 ### Mise en pratique
 
-## 3.4. [Annotations](3.4.%20Annotations.md)
+## [3.4. Annotations](3.4.%20Annotations.md)
 
 ### A quoi ca sert ?
 ### Quoi annoter ?
@@ -84,8 +84,14 @@
 ### Dans les frameworks
 ### MEP 
 
-## Gestion des erreurs
+## 3.5. Gestion des erreurs
 
+### Try/catch
+### finally
+### Multiple catch
+### Erreurs managées ou non
+### mot clé Throws
+### Encapsulation d'erreurs
 
 # Design Patterns
 
