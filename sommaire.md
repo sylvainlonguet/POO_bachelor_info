@@ -1,4 +1,4 @@
-# [1. Avant-propos](1.Avant-propos.md)
+# 1. Avant-propos[...](1.Avant-propos.md)
 
 ## Objectifs de ce module
 ## Supports & exercices
@@ -93,27 +93,27 @@
 ### mot clé Throws
 ### Encapsulation d'erreurs
 
-# Design Patterns
+# 4. Design Patterns
 
-## Généralités
+## 4.1. Généralités
 
-## Iterator
+## 4.2. Iterator
 
-## Observer
+## 4.3. Observer
 
-## Composite
+## 4.4. Composite
 
-## Proxy
+## 4.5. Proxy
 
-## Strategy
+## 4.6. Strategy
 
-## Singleton
+## 4.7. Singleton
 
-## Chain of Responsibility
+## 4.8. Chain of Responsibility
 
-# Inversion de contrôle de injection de dépendance
+# 5. Inversion de contrôle de injection de dépendance
 
-## Principe
+## 5.1. Principe
 
-## Etude du framework Spring
+## 5.2. Etude du framework Spring
 
